@@ -8,10 +8,23 @@
     background-color: #0f1111;
     height: 60px;
     display: flex;
-    justify-content: space-evenly;
+   /* justify-content: space-evenly; */
     align-items: center;
 }
 
+/*hover*/
+.box{
+    border: 2px solid transparent;
+    padding: 5px;
+}
+
+.box:hover{
+    border: 1.5px solid white;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+/*nav-box1*/
 .nav-box1{
     background-image: url(./images/amazon_logo.png);
     background-position: center;
@@ -19,4 +32,60 @@
     background-size: contain;
     height: 50px;
     width: 113px;
+}
+
+/*nav-box2*/
+.nav-box2{
+    display: flex;
+    gap: 5px;
+}
+
+.box2-left{
+    padding-top: 9px;
+}
+
+.first-box2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #cccccc;
+}
+.second-box2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+}
+
+/*nav-box3*/
+.nav-box3{
+    display: flex;
+    margin-left: 10px;
+    width: 630px;
+    justify-content: space-evenly;
+    background-color: #febd69;
+}
+
+.nav-select{
+    height: 40px;
+    border: none;
+    padding: 10px;
+    background-color: #cccccc ;
+}
+
+.nav-input{
+    height: 40px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box3-icon{
+    width: 45px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
